@@ -1,0 +1,111 @@
+header{
+    width: 100%;
+    height: 100vh;
+    background: url(bg.jpeg);
+    background-size: 50%  100% ,cover;
+    clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 97%, 0% 75%, 0 0);
+}
+.logo{
+    color: whitesmoke;
+    font-size: 50px;
+    
+    
+}
+.menu a{
+    color: azure;
+    text-decoration: none;
+    padding: 5px 5px;
+    margin: 15px;
+    font-size: 15px;
+    align-items: right;
+    padding-right: 5px;
+}
+nav{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo span{
+    color: red;
+}
+.menu a:hover{
+    background: red;
+    transition: 0.4;
+}
+.text{
+    color: aliceblue;
+    margin-top: 100px;
+    margin-left: 100px;
+    max-width: 450px;
+}
+.text h1{
+    font-size: 50px;
+    margin: 10px 0px;
+}
+.text p{
+    font-size: 25px;
+}
+.c-btn{
+    border: none;
+    outline: none;
+    color: aliceblue;
+    background: red;
+    padding: 10px;
+    margin-top: 20px;
+
+}
+#about{
+    padding: 100px 50px;
+}
+.section-info{
+    font-weight: bold;
+    text-align: center;
+}
+.section-info h1{
+    font-size: 50px;
+
+}
+.section-info p{
+    font-size: 25px;
+color: brown;
+}
+.about-row{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    flex-wrap: right;
+    padding: 25%;
+}
+.about-left-col{
+    flex-basis: 50%;
+}
+
+.about-right-col{
+    flex-basis: 50%;
+
+}
+
+.about-right-col p{
+    font-size: 20px;
+    text-align:right;
+}
+.center img{
+    width: 50%;
+    height: 250px;
+    padding-left: 25%;
+    border-image: round;
+    align-items: center;
+    
+}
+#skills{
+    padding: 100px 50px;
+    background-color: darkgray;
+}
+.skills.row{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
